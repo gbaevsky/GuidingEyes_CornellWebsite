@@ -1,0 +1,442 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  /*background-color: #68a6a4;*/
+  background-color: #a9d1c5;
+}
+
+nav *{
+  text-decoration: none;
+  color: black;
+}
+nav ul{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  margin: 3px;
+  margin-right: 40px;
+  align-items: center;
+}
+
+nav{
+  background-color: lightgray;
+  width: 100%;
+}
+nav ul li{
+  font-size: 15px;
+  font-weight: bold;
+  list-style-type: none;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  border: 3px solid #0515B5;
+  margin: 5px;
+
+}
+
+nav ul li a:hover {
+  color: #0515B5;
+  background-color: #ffffff;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+nav ul li a:visited {
+  text-decoration: none;
+
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 3px solid #0515B5;
+  background-color: white;
+}
+.logo{
+  text-align: center;
+}
+
+.logo img{
+  width: 100%;
+}
+.nav-bar-button{
+  display: block;
+  background-color: darkgray;
+  border: none;
+  color: #0515B5;
+  width: 55px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+.button-bar{
+  background-color: lightgray;
+}
+p{
+  line-height: 1.5em;
+}
+
+#logo-source, #national-source, #national-img-source, #cornell-source, #finger-source, #contact-logo-sources {
+  font-size: 10px;
+  text-align: left;
+}
+
+
+h1 {
+  color: #0515B5;
+  text-align: center;
+}
+
+h2, h3 {
+  text-align: center;
+  padding: 5px;
+  border: 3px solid #0515B5;
+  background-color: #ffffff;
+}
+
+h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+#national-site {
+  padding: 20px;
+  margin: 0 auto;
+  flex: 1 1 auto;
+}
+
+#national-site img, #fb-finger {
+  border: 2px solid #000000;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#national-site img {
+  height: 100%;
+  max-width: 300px;
+}
+
+#fingerlakes img {
+  border-radius: 15px;
+  width: 60px;
+}
+
+#national-site figcaption, #fingerlakes figcaption {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  align-items: center;
+  color: black;
+  line-height: 1.5em;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.homepics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homepics *{
+  flex: 1 1 auto;
+  border: 2px solid #000000;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.homepics #group1 {
+  max-width: 525px;
+  height: 100%;
+}
+.homepics #home1{
+  height: 100%;
+  max-width: 300px;
+}
+.homepics #home2, .homepics #homegroup2{
+  height: 100%;
+  max-width: 300px;
+}
+
+#gcal {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 500px;
+  margin-top: 30px;
+  border: 3px solid black;
+}
+
+.meeting p, .involvement p {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.meeting ul li {
+  list-style-type: none;
+}
+
+.eboard ul li {
+  list-style-type: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#email, #clickable {
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+#clickable {
+  text-align: center;
+}
+
+.contact-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.contact-imgs #con-img1, .contact-imgs #con-img2 {
+  border: 2px solid #000000;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.pet-imgs, .homepics {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.mem-imgs, .mem-dogs-imgs {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+}
+
+.pet-imgs *, .mem-imgs *, .mem-dogs-imgs * {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  flex: 1 1 auto;
+  border: 3px solid #000000;
+  border-radius: 30px;
+}
+
+.pet-imgs{
+  align-items: center;
+}
+.pet-imgs #group-img {
+  margin-top: 30px;
+  height: 100%;
+  max-width: 525px;
+}
+.pet-imgs #pet-img{
+  height: 100%;
+  max-width: 300px;
+}
+
+.contact-imgs #con-img1 {
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.about, .meeting, .contact, .pet{
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.lbutton-arrow, .rbutton-arrow {
+   margin-top: 300px;
+   margin-bottom: 300px;
+   background-color: transparent;
+   border: none;
+ }
+
+
+button:hover {
+  color: #ffffff;
+  background-color: darkgray;
+}
+.lbutton-arrow:hover, .rbutton-arrow:hover{
+  background-color: transparent;
+}
+
+.carousel-dots1, .carousel-dots2, .carousel-dots3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.carousel-dots1 *, .carousel-dots2 *, .carousel-dots3 * {
+  font-size: 20px;
+}
+.carousel-dots2{
+  margin-top: -75px;
+}
+.carousel-dots1, .carousel-dots3 {
+  margin-top: -50px;
+}
+.current-dogs, .working-dogs, .released-dogs {
+  display: flex;
+  justify-content: center;
+}
+
+.rehomed figure img, .in-training figure img {
+  display: block;
+  margin: auto;
+  border: 3px solid #000000;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.current-dogs figcaption, .working-dogs figcaption, .released-dogs figcaption, .rehomed figcaption, .in-training figcaption {
+  text-align: center;
+}
+
+.current-dogs figure img, .working-dogs figure img, .released-dogs figure img {
+  display: block;
+  margin: auto;
+  border: 3px solid #000000;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+#mem-img1, #mem-img2, #memdog-img1, #memdog-img2 {
+  height: 100%;
+  max-width: 300px;
+}
+.mem-imgs, .mem-dogs-imgs{
+  align-items: center;
+}
+
+.info-message {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+
+.involvement .info-message {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media(min-width: 760px){
+
+  /*body{
+    width: 75%;
+    margin: 0 auto;
+  }*/
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+
+  }
+  nav {
+    width: 100%;
+    padding-top: 30px;
+  }
+  nav ul li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .header {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+  }
+
+  .logo, .logo img{
+    width: 300px;
+  }
+
+  .about, .meeting, .contact, .pet{
+    text-align: left;
+  }
+
+  .dogs h3 {
+    margin: 10px;
+  }
+
+  .homepics, .pet-imgs, .mem-imgs, .mem-dogs-imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+.homepics img{
+  width: 20%;
+
+}
+
+  .contact-imgs {
+    justify-content: center;
+  }
+
+  .carousel-dots3 {
+    margin-top: -100px;
+  }
+
+  .in-training figure {
+    margin-top: 125px;
+  }
+
+   .rehomed figure {
+     margin-top: 25px;
+   }
+
+  .first-2 {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    justify-content: center;
+  }
+
+  .middle-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: center;
+  }
+  .nav-bar-button{
+    display: none;
+  }
+  .nav-bar{
+    display: contents;
+  }
+
+}

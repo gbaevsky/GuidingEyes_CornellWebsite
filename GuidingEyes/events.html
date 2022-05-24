@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Events</title>
+  <link rel="stylesheet" type="text/css" href="styles/site.css"/>
+</head>
+<body>
+
+    <div class="header">
+      <div class="logo">
+        <!-- Source: https://www.ibm.com/case-studies/guiding-eyes-for-the-blind -->
+        <img src = "images/logo.jpg" alt = "Guiding Eyes Official Logo" />
+        <p id="logo-source">
+          Source:
+          <cite> <a href="https://www.ibm.com/case-studies/guiding-eyes-for-the-blind"> Guiding Eyes Official Logo </a></cite>
+        </p>
+      </div>
+      <div class="button-bar">
+      <button class="nav-bar-button" type="button" data-toggle="collapse" data-target="#nav-bar-content" aria-label="Toggle Navigation"><span>&#9776;</span></button>
+    </div>
+      <nav class="nav-bar hidden" id="nav-bar-content">
+        <ul>
+          <li> <a href = "index.html"> About Guiding Eyes </a></li>
+          <li> <a href = "events.html"> Events </a></li>
+          <li> <a href = "dogs.html"> Meet the Dogs </a></li>
+          <li> <a href = "member.html"> Membership </a></li>
+        </ul>
+      </nav>
+    </div>
+
+  <iframe id="gcal" src="https://calendar.google.com/calendar/embed?src=cornell.edu_531firepedc0mguc86n6rb7v6s%40group.calendar.google.com&ctz=America%2FNew_York" title="Google Calendar for the Guiding Eyes Events"></iframe>
+
+  <div class="meeting">
+    <h3> Meeting Times and Events </h3>
+
+      <p> Monthly General Body Meetings </p>
+      <ul>
+          <li> Our monthly meeting to stay up-to-date on our club's activities and progress throughout the semester -- this includes activities such as puppy tick-or-treating and puppy obstacle courses</li>
+          <li>Location: normally in big lecture halls on campus </li>
+      </ul>
+
+      <p> Pet-A-Puppy Event </p>
+      <ul>
+          <li>Our combined events with other organizations on campus where we bring puppies to be pet by participants</li>
+          <li>Location: normally dictated by organization that we are working with </li>
+      </ul>
+
+      <p> Puppy Classes </p>
+      <ul>
+          <li> Observing raisers working with their dogs to develop skills under the guidance of the professionals from the National Guiding Eyes organization</li>
+          <li> Location: Vet School Atrium </li>
+      </ul>
+
+
+  </div>
+
+  <div class="pet">
+    <h3> Schedule a Pet-A-Puppy Event for Your Organization </h3>
+    <p>
+      If you would like to schedule this event with us please reach out to our president <strong> Alyssa Roorda -- akr83@cornell.edu </strong>
+    </p>
+
+    <!-- Source: Client Provided Content Images-->
+    <div class="pet-imgs">
+      <img id="pet-img" src = "images/pet.jpg" alt = "Pet-A-Puppy" />
+      <img id="group-img" src = "images/groupevent.jpg" alt = "Group Dogs" />
+    </div>
+  </div>
+
+  <div class="contact">
+    <h3 id="con"> Contact Information </h3>
+
+    <p id="email"> Email: guidingeyes@cornell.edu </p>
+
+    <p id="clickable"> Click on the Logos Below to View Our Profiles </p>
+
+    <div class="contact-imgs">
+      <!-- Source: https://www.shutterstock.com/search/facebook+logo -->
+      <a href="https://www.facebook.com/GuidingEyesForTheBlindAtCornell/">
+        <img id="con-img1" src = "images/facebook.jpg" alt = "Cornell Chapter Facebook Profile" />
+      </a>
+
+      <!-- Source: https://pixabay.com/illustrations/instagram-symbol-logo-photo-camera-1581266/ -->
+      <a href="https://www.instagram.com/guidingeyesatcornell/?hl=en">
+        <img id="con-img2" src = "images/insta.jpg" alt = "Cornell Chapter Instagram Profile" />
+      </a>
+    </div>
+
+    <p id="contact-logo-sources">
+      Source: <cite> <a href="https://www.shutterstock.com/search/facebook+logo/"> Facebook Logo </a></cite>
+      Source:
+      <cite> <a href="https://pixabay.com/illustrations/instagram-symbol-logo-photo-camera-1581266/"> Instagram Logo </a></cite>
+    </p>
+  </div>
+  <script type="text/javascript" src="scripts/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="scripts/hamburger.js"></script>
+</body>
+</html>
